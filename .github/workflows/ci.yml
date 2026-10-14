@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v1
 
       - name: Install dependencies
-        run: npm ci --save-dev jest
+        run: npm ci
 
       - name: Run tests
         run: npm test
